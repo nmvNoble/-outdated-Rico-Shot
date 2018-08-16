@@ -1,12 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rico-Shot!", "Assembly-CSharp.csproj", "{DFF2BF4F-E889-AB7D-8586-8D2C851AF04C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rico-Shot!", "Assembly-CSharp-Editor.csproj", "{BA39FAF0-0169-9661-6D1D-BCC5968AB392}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFF2BF4F-E889-AB7D-8586-8D2C851AF04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF2BF4F-E889-AB7D-8586-8D2C851AF04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF2BF4F-E889-AB7D-8586-8D2C851AF04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF2BF4F-E889-AB7D-8586-8D2C851AF04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA39FAF0-0169-9661-6D1D-BCC5968AB392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA39FAF0-0169-9661-6D1D-BCC5968AB392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA39FAF0-0169-9661-6D1D-BCC5968AB392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA39FAF0-0169-9661-6D1D-BCC5968AB392}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
