@@ -5,6 +5,7 @@ using UnityEngine;
 public class playerHit : MonoBehaviour {
 
     GameObject player;
+    public gameOver over;
 
     // Use this for initialization
     void OnCollisionEnter(Collision collision)
@@ -19,6 +20,8 @@ public class playerHit : MonoBehaviour {
 
             for (var i = 0; i < balls.Length; i++)
                 Destroy(balls[i]);
+
+            over.playerHit();
         }
     }
 }

@@ -15,16 +15,13 @@ public class Jump : MonoBehaviour
 
         Button btn1 = jumpButton.GetComponent<Button>();
         btn1.onClick.AddListener(doJump);
-
-
-       
     }
 
     void doJump()
     {
         if (onGround)
         {
-            rb.velocity = new Vector3(0f, 5f, 0f);
+            rb.velocity = new Vector3(0f, 10f, 0f);
             onGround = false;
         }
         
